@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+	
+	<head>
+		<ul>
+			<li><a href = "homepage.html">Home</a></li>
+			<li><a href = "Profile.html">Profile</a></li>
+			<li><a href = "Our Work.html">Our Work</a></li>
+			<li><a href = "Gallery.html">Gallery</a></li>
+			<li><a href = "Reviews.html">Reviews</a></li>
+			<li><a href = "Contact Us.html">Contact Us</a></li>
+			</ul>
+
+	</head>
+
+	
+	
+		
+	    
+	    
+	
+<style>
+		
+		ul li {
+	float: middle;
+	width: 200px;
+	height: 40px;
+	background-color: lightgrey;
+	opacity: .9;
+	line-height: 10px;
+	text-align: center;
+	font-size: 18px;
+	margin-left: 10px;
+}
+    body{
+    background-image: url(0.png);
+	background-position: center;
+	background-color: white;
+	background-repeat: no-repeat;	
+	overflow-x: hidden;	
+	}
+	
+		
+	
+	ul{
+	list-style-type: none;
+	margin: 40;
+	padding: 20;
+	overflow:hidden;
+	background-color:
+	}
+	
+	li{
+	float: left;
+	}
+	
+	li a{
+	display: block;
+	color: black;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+	.title{
+		margin: auto;
+		width:fit-content;
+		text-align: center;
+		color: black;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%);
+	}
+	.title h1{
+		font-size: 70px;
+		font-weight: 500;
+		position: relative;
+		z-index: 10;
+	}
+	.back-text{
+		width: max-content;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.back-text span{
+		display: inline-block;
+		font-size: 145px;
+		font-weight: 700;
+		-webkit-text-stroke: 1px rgb(0, 255, 255);
+		-webkit-text-fill-color: rgb(0, 148, 148);
+		transform: translateY(100px);
+		opacity: 0;
+		transition: transform 1s, opacity 0.5s, -webkit-text-stroke-color 0.5s;
+    }
+	.back-text span.active{
+		transform: translateY(0px);
+		opacity: 1;
+
+	}
+	.back-text span:nth-child(1){
+		transition-delay: 0.5s;
+
+	}
+	.back-text span:nth-child(2){
+		transition-delay: 1s;
+
+	}
+	.back-text span:nth-child(3){
+		transition-delay: 1.5s;
+
+	}
+	.back-text span:nth-child(4){
+		transition-delay: 2s;
+
+	}
+	.back-text span:nth-child(5){
+		transition-delay: 2.5s;
+
+	}
+	.back-text span:nth-child(6){
+		transition-delay: 3s;
+
+	}
+	.back-text span:nth-child(7){
+		transition-delay: 3.5s;
+
+	}
+	.back-text span:nth-child(8){
+		transition-delay: 4s;
+
+	}
+	.back-text span:nth-child(9){
+		transition-delay: 4.5s;
+
+	}
+	.back-text span:nth-child(10){
+		transition-delay: 5s;
+
+	}
+	.back-text span:nth-child(11){
+		transition-delay: 5.5s;
+
+	}
+	.back-text span:nth-child(12){
+		transition-delay: 6s;
+
+	}
+	.back-text:hover span{
+		-webkit-text-stroke-color: black;
+	}
+
+	/*--Profile--*/
+	.profile-text{
+		text-align: center;
+		padding-top: 45%;
+		font-size: 10px;
+		font-family: 'Oswald', sans-serif;
+		width: 100%;
+		
+			
+		
+
+	}
+	.profile-image1{
+		
+		
+	
+		
+	}
+
+
+
+	
+</style>
+	
+	
+	
+	
+<body>
+
+<hr/>
+
+
+<div class = "title">
+	<h1></h1>
+	<div class = "back-text">
+        <span>A</span>
+		<span>F</span>
+		<span>R</span>
+		<span>I</span>
+		<span>C</span>
+		<span>A</span>
+		<span>N</span>
+		<span>D</span>
+		<span>R</span>
+		<span>E</span>
+		<span>A</span>
+		<span>M</span>
+	</div>
+
+</div>
+<div class = "profile-text">
+	<h1>AFRICANDREAM was established in 2000 to
+		make a difference in the economy of
+		Limpopo. AFRICANDREAM is a black owned entity, owned entirely by<br>a woman. The main purpose of the company is event management with an intense
+		focus on catering and equipment hire. The company targets corporate<br>the government, parastatals, individuals as well as NGOs.</h1>
+		<h1>The company's mission is to serve 
+		it's clients with pride and become the leading player in providing management and conference solutions to the clients.</h1>
+	</div>
+
+<!--Profile-->
+
+
+
+<script>
+	let spanTexts = document.getElementsByTagName("span");
+	window.onload = function(){
+		for(spanText of spanTexts){
+			spanText.classList.add("active");
+		}
+	
+	}
+</script>
+
+
+
+	
+</body>
+	</hr>
+
+	
+	<footer>
+		
+		
+	
+	</footer>
+
+
+
+</html>
