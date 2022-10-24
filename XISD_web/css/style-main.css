@@ -50,6 +50,9 @@ h1{
 .box, .box-2, .box-3{
   height: 100vh;
   float: left;
+  margin-left: 30px;
+  margin-right: 40px;
+  padding: 30px;
 }
 .box img{
   width: 400px;
@@ -57,7 +60,7 @@ h1{
   border-radius: 50%;
   padding: 10px;
   border: 5px solid #7791c5;
-  margin-left: 300px;
+  margin-left: 250px;
 }
 .box-2 img{
   width: 400px;
@@ -65,6 +68,7 @@ h1{
   border-radius: 50%;
   padding: 10px;
   border: 5px solid #7791c5;
+  
 }
 .box-3 img{
   width: 400px;
