@@ -1,13 +1,17 @@
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
+  
 }
-
+.image{
+  width: 100%;
+  height: auto;
+}
 .sidebar {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+  background-color: #91c3e6;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -21,12 +25,12 @@ body {
 }
  
 .sidebar a.active {
-  background-color: #04AA6D;
+  background-color: #2f88dc;
   color: white;
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: #555;
+  background-color: #7791c5;
   color: white;
 }
 
@@ -34,8 +38,14 @@ div.content {
   margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
+  
 }
-
+section{
+  padding-bottom: 15px;
+}
+h1{
+  text-align: center;
+}
 @media screen and (max-width: 700px) {
   .sidebar {
     width: 100%;
