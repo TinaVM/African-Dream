@@ -88,6 +88,23 @@ h1{
 .box img, .box-2 img, .box-3 img{
   cursor: pointer;
 }
+.circles{
+  margin-top: 35rem;
+  
+}
+/*sections*/
+.child{
+  border: 1px solid #7791c5;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+.list li{
+  list-style-type: none;
+}
+.section-content{
+  display: flex;
+}
 /*glow hover effect*/
 /*.bg-clipPath{
   position: absolute;
