@@ -92,11 +92,20 @@ h1{
   margin: 1rem 0;
   padding: 0 1rem;
 }*/
-.label{
+.label, .label-1{
   font-size: 2rem;
   line-height: 3;
   padding: 0 1rem;
   margin: 0;
+  margin-top: -15rem;
+  height: 2rem;
+  color: white;
+  text-align: center;
+  /*background-color: #7791c5;*/
+}
+.label-1{
+  /*margin-left: 65px;*/
+  padding-left: 300px;
 }
 @media screen and (max-width: 700px) {
   .sidebar {
