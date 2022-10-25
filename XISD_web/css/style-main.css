@@ -133,14 +133,7 @@ h1{
   text-shadow: 6px 6px 6px rgb(29, 27, 27);
 
 }
-.label:hover, .label-1:hover{
-  color: #ffffff;
-  text-shadow: 0 0 10px #c1e3f3,
-  0 0 20px #c1e3f3,
-  0 0 30px #c1e3f3,
-  0 0 40px #c1e3f3;
-  transition: 0.5s;
-}
+
 /*image shadow on hover*/
 .box img:hover, .box-2 img:hover, .box-3 img:hover{
   box-shadow: 3px 3px 30px #2f88dc;
