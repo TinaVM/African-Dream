@@ -114,6 +114,7 @@ h1{
 }*/
 .label, .label-1{
   font-size: 2rem;
+  font-weight: 700;
   line-height: 3;
   padding: 0 1rem;
   margin: 0;
@@ -129,7 +130,20 @@ h1{
   padding-left: 300px;
 }
 .label h4, .label-1 h4{
-  text-shadow: 6px 6px 6px rgb(29, 27, 27);;
+  text-shadow: 6px 6px 6px rgb(29, 27, 27);
+
+}
+.label:hover, .label-1:hover{
+  color: #ffffff;
+  text-shadow: 0 0 10px #c1e3f3,
+  0 0 20px #c1e3f3,
+  0 0 30px #c1e3f3,
+  0 0 40px #c1e3f3;
+  transition: 0.5s;
+}
+/*image shadow on hover*/
+.box img:hover, .box-2 img:hover, .box-3 img:hover{
+  box-shadow: 3px 3px 30px #2f88dc;
 }
 @media screen and (max-width: 700px) {
   .sidebar {
