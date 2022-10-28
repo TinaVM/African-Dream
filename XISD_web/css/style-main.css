@@ -4,6 +4,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   
 }
+p, li{
+  font-size: 22px;
+}
 .image{
   width: 100%;
   height: auto;
@@ -46,7 +49,37 @@ section{
 }
 h1{
   text-align: center;
+  max-width: 600px;
+  margin: 100px auto;
+  position: relative;
 }
+/*line before title*/
+ h1:before{
+  content: "";
+  display:block;
+  width: 120px;
+  height: 5px;
+  background: #7791c5;
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  z-index: -5;
+}
+h1:after{
+  content: "";
+  display:block;
+  width: 120px;
+  height: 5px;
+  background: #7791c5;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  z-index: -5;
+}
+span{
+  background: #ffffff;
+}
+
 /*circular box image*/
 .box, .box-2, .box-3{
   height: 100vh;
