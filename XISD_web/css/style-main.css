@@ -123,7 +123,7 @@ span{
   cursor: pointer;
 }
 .circles{
-  margin-top: 35rem;
+  margin-top: 20rem;
   
 }
 .title-head-circles h4{
@@ -139,6 +139,57 @@ span{
 }
 .list li{
   list-style-type: none;
+}
+
+/*footer*/
+.footer{
+  background-color: #7791c5;
+  padding: 70px 0;
+}
+.container{
+  max-width: 1170px;
+  
+  
+  margin: auto;
+}
+.footer-col ul li{
+  list-style: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 28px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  position: relative;
+}
+.footer-col h4::before{
+  content:'';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #2f88dc;
+  height: 3px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  display: black;
 }
 
 @media(min-width:760px){
