@@ -10,44 +10,47 @@
   </head>
 <body>
     <h1>Order Online</h1>
-    <form method="post" action="">      
-      <fieldset>      
-          <legend>Choose Equipment To Hire:</legend>      
-          <input type="checkbox" name="equipment" value="tents">Tents X
-          <input type="text" id="tentItems" name="tentItems"><br>      
-          <input type="checkbox" name="equipment" value="tables">Tables X
-          <input type="text" id="tableItems" name="tableItems"><br>      
-          <input type="checkbox" name="equipment" value="chairs">Chairs X
-          <input type="text" id="chairItems" name="chairItems"><br>
-          <input type="checkbox" name="equipment" value="cutlery">Crockery & Cutlery X
-          <input type="text" id="cutleryItems" name="cutleryItems"><br>   
-          <br>
-          </fieldset>
-          <fieldset>
-            <legend>Fuction Type:</legend> 
-          <select name="function">
-            <option value="choose">--Select Function Size--</option>
-            <option value="small">Small</option>
-            <option value="large">Large</option>
-          </select>   
-               
-      </fieldset> 
-      <fieldset>
-        <legend>Special Prerequisities:</legend>
-        <p><span>*</span>Each special requsities are charged at a fee subject to VAT.</p>
-        <input type="checkbox" name="other" value="standa">Exhibition Stands<br>      
-        <input type="checkbox" name="other" value="flowers">Flower Arrangements<br>      
-        <input type="checkbox" name="other" value="logitics">Other Logistics for Event<br>
-        <textarea id="txtOther" name="txtOther" rows="5" cols="50" placeholder="Specify other logistics for event..."></textarea>
-        </textarea>
-      </fieldset> 
-      <br>
-      <fieldset>
-        <legend>Total Cost:</legend>
-        <input type="text" id="cost" name="cost">
-      </fieldset>
-      <br>
-      <input type="submit" value="Submit now" />     
-  </form>
+    <section class="form-sec">
+      <form method="post" action="">      
+        <fieldset>      
+            <legend class="equip">Choose Equipment To Hire:</legend>      
+            <input class="checkbox" type="checkbox" name="equipment" value="tents">Tents (Alpine Marquees 40m x 30m) X
+            <input type="text" id="tentItems" name="tentItems"><br>      
+            <input type="checkbox" name="equipment" value="tables">Tables X
+            <input type="text" id="tableItems" name="tableItems"><br>      
+            <input type="checkbox" name="equipment" value="chairs">Chairs X
+            <input type="text" id="chairItems" name="chairItems"><br>
+            <input type="checkbox" name="equipment" value="cutlery">Crockery & Cutlery X
+            <input type="text" id="cutleryItems" name="cutleryItems"><br>   
+            <br>
+            </fieldset>
+            <fieldset>
+              <legend>Fuction Type:</legend> 
+            <select name="function">
+              <option value="choose">--Select Function Size--</option>
+              <option value="small">Small</option>
+              <option value="large">Large</option>
+            </select>   
+                 
+        </fieldset> 
+        <fieldset>
+          <legend>Special Prerequisities:</legend>
+          <p><span class="notice">*</span>Each special requsities are charged at a fee subject to VAT.</p>
+          <input  type="checkbox" name="other" value="standa">Exhibition Stands<br>      
+          <input type="checkbox" name="other" value="flowers">Flower Arrangements<br>      
+          <input type="checkbox" name="other" value="logitics">Other Logistics for Event<br>
+          <textarea id="txtOther" name="txtOther" rows="5" cols="50" placeholder="Specify other logistics for event..."></textarea>
+          </textarea>
+        </fieldset> 
+        <br>
+        <fieldset>
+          <legend>Total Cost:</legend>
+          <input type="text" id="cost" name="cost">
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit now" />     
+    </form>
+    </section>
+    
 </body>
 </html>
