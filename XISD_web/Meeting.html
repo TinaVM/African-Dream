@@ -34,6 +34,17 @@
                     <option value="Online">Online</option>
                     <option value="Other">Other</option>
                   </select>
+                  <small id="platform" class="form-text text-muted">If 'Online' selected, please pick platform:</small>
+                  <input type="radio" id="zoom" name="platform-spec" value="Zoom">
+                  <label for="zoom">Zoom</label><br>
+                  <input type="radio" id="teams" name="platform-spec" value="Microsoft Teams">
+                  <label for="teams">Teams</label><br>
+                  <input type="radio" id="google" name="platform-spec" value="Google Meets">
+                  <label for="google">Google Meets</label><br>
+                </div>
+                <div class="form--group">
+                  <label for="pickDate">Pick A Date</label>
+                  <input type="date" id="meet-date" name="meet-date" min="2022-01-01" required>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Password</label>
