@@ -158,6 +158,7 @@ span{
 .footer{
   background-color: #7791c5;
   padding: 70px 0;
+  
 }
 .container{
   max-width: 1170px;
@@ -176,6 +177,9 @@ span{
   width: 25%;
   padding: 0 15px;
 }
+.footer-col p, .footer-col h5{
+  color: #ffffff;
+}
 .footer-col h4{
   font-size: 28px;
   color: #ffffff;
@@ -186,7 +190,7 @@ span{
 .footer-col h4::before{
   content:'';
   position: absolute;
-  left: 0;
+  left: 25%;
   bottom: -10px;
   background-color: #2f88dc;
   height: 3px;
